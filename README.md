@@ -2,6 +2,10 @@
 
 👋 Welcome to the Modern JavaScript: ES6 Basics repository! This repository contains the code examples and projects that I have learned through the corresponding Coursera course.
 
+
+![coursera](https://github.com/AMSANJEEV28/Modern-JavaScript-ES6-Basics/assets/81654437/0f315150-d93c-4511-8e9f-78d32e999150)
+
+
 ## Course Description
 In this project-based course, I have gained a solid understanding of ES6 (ECMAScript 2015), the latest version of JavaScript. Throughout the course, I have learned the major features of ES6 and how to apply them in practical situations. Additionally, I have explored the differences between JavaScript and ECMAScript.
 

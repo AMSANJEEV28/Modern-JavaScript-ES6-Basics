@@ -1,6 +1,6 @@
 // Task 1: Introduction
 
-console.log('Hello, ES6 !!!!!');
+console.log('Hello, ES6');
 
 
 
@@ -18,28 +18,28 @@ console.log('Hello, ES6 !!!!!');
 
 // Task 2: Execise 1: Fix the code to print 15
 
-// var age = 15;
+var age = 15;
 
-// for (var age = 1; age <= 10; age++) {
-//     console.log(age);
-// }
+for (let age = 1; age <= 10; age++) {
+    console.log(age);
+}
 
-// console.log(age); // Should print 15 instead of 10
+console.log(age); // Should print 15 instead of 10
 
 // Task 2: Execise 2: Fix the code to print Jack Russell Terrier
 
-// var myDog = "Jack Russell Terrier";
-// var shortLeggies = true;
+var myDog = "Jack Russell Terrier";
+var shortLeggies = true;
 
-// if (shortLeggies) {
-//     var myDog = "Welsh Corgie";
-//     console.log(myDog);
-// } else {
-//     var myDog = "Border Collie";
-//     console.log(myDog);
-// }
+if (shortLeggies) {
+    let myDog = "Welsh Corgie";
+    console.log(myDog);
+} else {
+    let myDog = "Border Collie";
+    console.log(myDog);
+}
 
-// console.log(myDog); // Jack Russell Terrier
+console.log(myDog); // Jack Russell Terrier
 
 
 

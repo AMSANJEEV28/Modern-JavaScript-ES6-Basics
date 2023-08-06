@@ -87,28 +87,24 @@ console.log(painter); // Should print { name: 'Van Gogh', nationality: 'Dutch', 
 
 // Task 4: Exercise: Extract data with destructuring
 
-// const ingredients = {
-//     tea: 'black',
-//     milk: 'soy',
-//     sweetener: 'honey',
-//     spices: ['ginger', 'cardamom', 'cinnamon', 'nutmeg']
-// }
+const ingredients = {
+    tea: 'black',
+    milk: 'soy',
+    sweetener: 'honey',
+    spices: ['ginger', 'cardamom', 'cinnamon', 'nutmeg']
+}
 
-// // Destructure the parameters
-// function prepareChai(ingredients) {
-//     const tea = ingredients.tea;
-//     const spices = ingredients.spices;
-//     const milk = ingredients.milk;
-//     const sweetener = ingredients.sweetener;
+// Destructure the parameters
+function prepareChai(tea,spices,milk,sweetener) {
 
-//     console.log("Mix the " + tea + " tea " +
-//         "with the " + spices + " in a small pot. " + 
-//         "Add a cup of water and bring to boil. Boil for 2-3 min. " +
-//         "Add " + milk + " milk and " + sweetener + ". " + 
-//         "Simmer for 3 min. Serve masala chai hot or warm!");
-// }
+    console.log("Mix the " + tea + " tea " +
+        "with the " + spices + " in a small pot. " + 
+        "Add a cup of water and bring to boil. Boil for 2-3 min. " +
+        "Add " + milk + " milk and " + sweetener + ". " + 
+        "Simmer for 3 min. Serve masala chai hot or warm!");
+}
 
-// prepareChai(ingredients);
+prepareChai(ingredients);
 
 
 

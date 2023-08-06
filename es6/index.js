@@ -195,21 +195,26 @@ console.log(primeNumbers);
 
 // Task 7: Exercise
 
-// function Translator() {
-//    this.phrase = "good day";
-//    this.englishBulgarianDictionary = {
-//        good: "добър",
-//        day: "ден"
-//    }
-// }
+function Translator() {
+    this.phrase = "good day";
+    this.englishBulgarianDictionary = {
+        good: "добър",
+        day: "ден"
+    }
+}
 
-// Translator.prototype.getBulgarianPhrase = function() {
-//    return this.phrase
-//        .split(" ")
-//        .map(function(word) {
-//            return this.englishBulgarianDictionary[word]
-//        })
-//        .join(" ");
+Translator.prototype.getBulgarianPhrase = function() {
+    return this.phrase
+        .split(" ")
+        .map(function(word) {
+            return this.englishBulgarianDictionary[word];
+        }.bind(this)) // Use bind() to capture the value of 'this'
+        .join(" ");
+}
+ 
+const translator = new Translator();
+console.log(translator.getBulgarianPhrase());
+
 // }
  
 // const translator = new Translator();

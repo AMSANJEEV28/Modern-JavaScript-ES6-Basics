@@ -36,3 +36,8 @@ The hands-on project, Modern JavaScript: ES6 Basics, comprised the following tas
 7. Task 7: Arrow functions and "this"
 
 This repository contains the code I have written and the examples I have studied throughout the course. Feel free to explore the code and leverage the projects to further enhance your understanding of ES6 concepts. Happy coding! 🚀
+
+
+# Certificate 
+
+![Coursera 65NS9TZUQ757_page-0001](https://github.com/AMSANJEEV28/Modern-JavaScript-ES6-Basics/assets/81654437/1cc29c3d-560e-4ef2-9a83-b5e43aa4eef8)

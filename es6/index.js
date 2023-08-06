@@ -160,8 +160,23 @@ console.log(
 
 // TASK 6: Exercise: Filter out only the prime numbers from the array
 
-// const primeNumbers = [1, 2, 3, 4, 5, 6].filter(/* add the function to filter out the prime numbers */);
-// console.log(primeNumbers);
+const isPrime = (num) => {
+    if (num <= 1) return false;
+    if (num <= 3) return true;
+
+    if (num % 2 === 0 || num % 3 === 0) return false;
+
+    for (let i = 5; i * i <= num; i += 6) {
+        if (num % i === 0 || num % (i + 2) === 0) {
+            return false;
+        }
+    }
+
+    return true;
+};
+
+const primeNumbers = [1, 2, 3, 4, 5, 6].filter(isPrime);
+console.log(primeNumbers);
 
 
 
